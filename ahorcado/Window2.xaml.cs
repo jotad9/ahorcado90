@@ -24,6 +24,7 @@ namespace ahorcado
             InitializeComponent();
         }
 
+        //boton de salida
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
