@@ -35,12 +35,11 @@
         </Grid.RowDefinitions>
         <Path Data="M174.125,168" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="174.125,103,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1" Grid.Row="1"/>
         <Label x:Name="titulo" Content="        AHORCADO" HorizontalAlignment="Center" Margin="298,3,298,0" VerticalAlignment="Top" Width="140" Background="#FFDF1B1B" FontFamily="Arial Black" Height="24" Grid.Row="1"/>
-        <Label x:Name="palabraEncriptada" Content="Label" HorizontalAlignment="Left" Margin="131,103,0,0" VerticalAlignment="Top" Width="187" Grid.Row="1" Height="26"/>
+        <Label x:Name="palabraEncriptada"  Content="Label" HorizontalAlignment="Left" Margin="131,103,0,0" VerticalAlignment="Top" Width="201" Grid.Row="1" Height="65" FontSize="20" FontWeight="Bold" FontFamily="Cambria Math"/>
         <Button x:Name="a"  Content="A" HorizontalAlignment="Left" Margin="51,173,0,0" VerticalAlignment="Top" Width="75"   MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="a_Click" Grid.Row="1" Height="20"/>
         <Button  x:Name="b" Content="B" HorizontalAlignment="Left" Margin="131,173,0,0" VerticalAlignment="Top" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="b_Click" Grid.Row="1" Height="20"/>
         <Button  x:Name="c" Content="C" HorizontalAlignment="Left" Margin="211,173,0,0" VerticalAlignment="Top" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="c_Click" Grid.Row="1" Height="20"/>
         <Button  x:Name="d" Content="D" HorizontalAlignment="Left" Margin="291,173,0,0" VerticalAlignment="Top" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="d_Click" Grid.Row="1" Height="20"/>
-        <Button  x:Name="e" Content="E" HorizontalAlignment="Left" Margin="51,216,0,0" VerticalAlignment="Top"  Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="e_Click" Grid.Row="1" Height="20"/>
         <Button  x:Name="f" Content="F" HorizontalAlignment="Left" Margin="131,216,0,0" VerticalAlignment="Top" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="f_Click" Grid.Row="1" Height="20"/>
         <Button  x:Name="g" Content="G" HorizontalAlignment="Left" Margin="211,216,0,0" VerticalAlignment="Top" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="g_Click" Grid.Row="1" Height="20"/>
         <Button  x:Name="h" Content="H" HorizontalAlignment="Left" Margin="291,216,0,0" VerticalAlignment="Top" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="h_Click" Grid.Row="1" Height="20"/>
@@ -68,6 +67,7 @@
         <Image   x:Name="cuarta" Visibility="Collapsed" Source="ahorcarCuerpoConBrazos.png" Margin="462,112,77,88" Grid.Row="1"></Image>
         <Image   x:Name="quinta" Visibility="Collapsed" Source="ahorcadoEntero.png" Margin="462,112,77,88" Grid.Row="1"></Image>
         <Image   x:Name="gameover" Visibility="Collapsed" Source="gameover.jpg" Margin="-116,-269,-117,-267" Grid.RowSpan="2"></Image>
+        <Button  x:Name="e" Content="E" HorizontalAlignment="Left" Margin="51,216,0,0" VerticalAlignment="Top" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="e_Click" Grid.Row="1" Height="20"/>
 
 
     </Grid>

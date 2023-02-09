@@ -51,6 +51,8 @@ namespace ahorcado
         }
         public void desencriptar()
         {
+            
+
             StringBuilder nuevaPalabra = new StringBuilder(palabraEncriptada.Content.ToString());
             for (int x = 0; x < numeroDeLetras; x++)
             {
@@ -71,6 +73,12 @@ namespace ahorcado
             }
             letraAcertada = false;
             
+            if (laPalabra.Equals(nuevaPalabra))
+            {
+                Window3 ventana = new Window3();
+                ventana.Show();
+                Hide();
+            }
 
 
         }
@@ -121,154 +129,154 @@ namespace ahorcado
         {
             elCaracter = 'b';
             desencriptar();
-            a.IsEnabled = false;
+            b.IsEnabled = false;
         }
 
         private void c_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'c';
             desencriptar();
-            a.IsEnabled = false;
+            c.IsEnabled = false;
         }
 
         private void d_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'd';
             desencriptar();
-            a.IsEnabled = false;
+            d.IsEnabled = false;
         }
 
         private void e_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'e';
             desencriptar();
-            a.IsEnabled = false;
+           
         }
 
         private void f_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'f';
             desencriptar();
-            a.IsEnabled = false;
+            f.IsEnabled = false;
         }
 
         private void g_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'g';
             desencriptar();
-            a.IsEnabled = false;
+            g.IsEnabled = false;
         }
 
         private void h_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'h';
             desencriptar();
-            a.IsEnabled = false;
+            h.IsEnabled = false;
         }
 
         private void i_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'i';
             desencriptar();
-            a.IsEnabled = false;
+            i.IsEnabled = false;
         }
 
         private void j_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'j';
             desencriptar();
-            a.IsEnabled = false;
+            j.IsEnabled = false;
         }
 
         private void k_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'k';
             desencriptar();
-            a.IsEnabled = false;
+            k.IsEnabled = false;
         }
 
         private void l_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'l';
             desencriptar();
-            a.IsEnabled = false;
+            l.IsEnabled = false;
         }
 
         private void m_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'm';
             desencriptar();
-            a.IsEnabled = false;
+            m.IsEnabled = false;
         }
 
         private void n_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'n';
             desencriptar();
-            a.IsEnabled = false;
+            n.IsEnabled = false;
         }
 
         private void o_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'o';
             desencriptar();
-            a.IsEnabled = false;
+            o.IsEnabled = false;
         }
 
         private void p_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'p';
             desencriptar();
-            a.IsEnabled = false;
+            p.IsEnabled = false;
         }
 
         private void q_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'q';
             desencriptar();
-            a.IsEnabled = false;
+            q.IsEnabled = false;
         }
 
         private void r_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'r';
             desencriptar();
-            a.IsEnabled = false;
+            r.IsEnabled = false;
         }
 
         private void s_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 's';
             desencriptar();
-            a.IsEnabled = false;
+            s.IsEnabled = false;
         }
 
         private void t_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 't';
             desencriptar();
-            a.IsEnabled = false;
+            t.IsEnabled = false;
         }
 
         private void u_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'u';
             desencriptar();
-            a.IsEnabled = false;
+            u.IsEnabled = false;
         }
 
         private void v_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'v';
             desencriptar();
-            a.IsEnabled = false;
+            v.IsEnabled = false;
         }
 
         private void x_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'x';
             desencriptar();
-            a.IsEnabled = false;
+            x.IsEnabled = false;
         }
 
 
@@ -277,21 +285,21 @@ namespace ahorcado
         {
             elCaracter = 'y';
             desencriptar();
-            a.IsEnabled = false;
+            y.IsEnabled = false;
         }
 
         private void z_Click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'z';
             desencriptar();
-            a.IsEnabled = false;
+            z.IsEnabled = false;
         }
 
         private void w_click(object sender, RoutedEventArgs e)
         {
             elCaracter = 'w';
             desencriptar();
-            a.IsEnabled = false;
+            w.IsEnabled = false;
 
         }
 
