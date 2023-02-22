@@ -58,7 +58,8 @@
                     <ColumnDefinition/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <Button x:Name="a"  Content="A" Width="75"   MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="a_Click" Grid.Row="0" Height="20" Grid.Column="0"/>
+
+                <Button x:Name="a"  Content="A" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"   MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="a_Click" Grid.RowSpan="2" Height="20" Grid.ColumnSpan="2"/>
                 <Button  x:Name="b" Content="B" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="b_Click" Grid.Row="0" Height="20" Grid.Column="1" Grid.ColumnSpan="2"/>
                 <Button  x:Name="c" Content="C" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="c_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
                 <Button  x:Name="d" Content="D" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="d_Click" Grid.Row="2" Height="20" Grid.Column="3"/>
