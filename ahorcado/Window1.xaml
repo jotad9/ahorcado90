@@ -15,7 +15,6 @@
             <Setter Property="FontSize" Value="15" />
             <Setter Property="VerticalAlignment" Value="Stretch" />
             <Setter Property="HorizontalAlignment" Value="Stretch" />
-            <Setter Property="Margin" Value="20,20,80,20" />
             <Setter Property="Template">
                 <!-- Sin este Setter.Value el color de fondo de el boton nunca cambia en hover trigger -->
                 <Setter.Value>
@@ -49,7 +48,6 @@
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
-                    <RowDefinition/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
@@ -59,33 +57,32 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <Button x:Name="a"  Content="A" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"   MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="a_Click" Grid.RowSpan="2" Height="20" Grid.ColumnSpan="2"/>
-                <Button  x:Name="b" Content="B" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="b_Click" Grid.Row="0" Height="20" Grid.Column="1" Grid.ColumnSpan="2"/>
-                <Button  x:Name="c" Content="C" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="c_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
-                <Button  x:Name="d" Content="D" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="d_Click" Grid.Row="2" Height="20" Grid.Column="3"/>
-                <Button  x:Name="f" Content="F" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="f_Click" Grid.Row="2" Height="20" Grid.Column="1"/>
-                <Button  x:Name="g" Content="G" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="g_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
-                <Button  x:Name="h" Content="H" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="h_Click" Grid.Row="2" Height="20" Grid.Column="3"/>
-                <Button  x:Name="i" Content="I" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="i_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
-                <Button  x:Name="j" Content="J" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="j_Click" Grid.Row="2" Height="20" Grid.Column="1"/>
-                <Button  x:Name="k" Content="K" HorizontalAlignment="Center" VerticalAlignment="Center" Width="74"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="k_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
-                <Button  x:Name="l" Content="L" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="l_Click" Grid.Row="2" Height="20" Grid.Column="3"/>
-                <Button  x:Name="m" Content="M" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="m_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
-                <Button  x:Name="n" Content="N" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="n_Click" Grid.Row="2" Height="20" Grid.Column="1"/>
-                <Button  x:Name="o" Content="O" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" RenderTransformOrigin="3.507,-2.8" Click="o_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
-                <Button  x:Name="p" Content="P" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" RenderTransformOrigin="0.793,0.463" Click="p_Click" Grid.Row="2" Height="20" Grid.Column="3"/>
-                <Button  x:Name="q" Content="Q" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="q_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
-                <Button  x:Name="r" Content="R" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="r_Click" Grid.Row="2" Height="20" Grid.Column="1"/>
-                <Button  x:Name="s" Content="S" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="s_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
-                <Button  x:Name="t" Content="T" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="t_Click" Grid.Row="2" Height="20" Grid.Column="3"/>
-                <Button  x:Name="u" Content="U" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="u_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
-                <Button  x:Name="v" Content="V" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="v_Click" Grid.Row="2" Height="20" Grid.Column="1"/>
-                <Button  x:Name="w" Content="W" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="w_click" Grid.Row="2" Height="20" Grid.Column="3"/>
-                <Button  x:Name="x" Content="X" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="x_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
-                <Button  x:Name="y" Content="Y" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="y_Click" Grid.Row="2" Height="20" Grid.Column="1"/>
-                <Button  x:Name="z" Content="Z" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="z_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
-
-                <Button  x:Name="e" Content="E" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="e_Click" Grid.Row="2" Height="20" Grid.ColumnSpan="2" Margin="51,62,0,0"/>
+                <Button x:Name="a"  Content="A" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"   MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="a_Click"  Grid.Row="0"  Height="20" Grid.Column="0"/>
+                <Button  x:Name="b" Content="B" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="b_Click" Grid.Row="0" Height="20" Grid.Column="1"/>
+                <Button  x:Name="c" Content="C" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="c_Click" Grid.Row="0" Height="20" Grid.Column="2"/>
+                <Button  x:Name="d" Content="D" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="d_Click" Grid.Row="0" Height="20" Grid.Column="3"/>
+                <Button  x:Name="f" Content="F" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="f_Click" Grid.Row="1" Height="20" Grid.Column="0"/>
+                <Button  x:Name="g" Content="G" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="g_Click" Grid.Row="1" Height="20" Grid.Column="1"/>
+                <Button  x:Name="h" Content="H" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="h_Click" Grid.Row="1" Height="20" Grid.Column="2"/>
+                <Button  x:Name="i" Content="I" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="i_Click" Grid.Row="1" Height="20" Grid.Column="2"/>
+                <Button  x:Name="j" Content="J" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="j_Click" Grid.Row="1" Height="20" Grid.Column="3"/>
+                <Button  x:Name="k" Content="K" HorizontalAlignment="Center" VerticalAlignment="Center" Width="74"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="k_Click" Grid.Row="1" Height="20" Grid.Column="4"/>
+                <Button  x:Name="l" Content="L" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="l_Click" Grid.Row="2" Height="20" Grid.Column="0"/>
+                <Button  x:Name="m" Content="M" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="m_Click" Grid.Row="2" Height="20" Grid.Column="1"/>
+                <Button  x:Name="n" Content="N" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="n_Click" Grid.Row="2" Height="20" Grid.Column="2"/>
+                <Button  x:Name="o" Content="O" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir"  Click="o_Click" Grid.Row="2" Height="20" Grid.Column="3"/>
+                <Button  x:Name="p" Content="P" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="p_Click" Grid.Row="2" Height="20" Grid.Column="4"/>
+                <Button  x:Name="q" Content="Q" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="q_Click" Grid.Row="3" Height="20" Grid.Column="0"/>
+                <Button  x:Name="r" Content="R" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="r_Click" Grid.Row="3" Height="20" Grid.Column="1"/>
+                <Button  x:Name="s" Content="S" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="s_Click" Grid.Row="3" Height="20" Grid.Column="2"/>
+                <Button  x:Name="t" Content="T" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="t_Click" Grid.Row="3" Height="20" Grid.Column="3"/>
+                <Button  x:Name="u" Content="U" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="u_Click" Grid.Row="3" Height="20" Grid.Column="4"/>
+                <Button  x:Name="v" Content="V" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="v_Click" Grid.Row="4" Height="20" Grid.Column="0"/>
+                <Button  x:Name="w" Content="W" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="w_click" Grid.Row="4" Height="20" Grid.Column="1"/>
+                <Button  x:Name="x" Content="X" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="x_Click" Grid.Row="4" Height="20" Grid.Column="2"/>
+                <Button  x:Name="y" Content="Y" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="y_Click" Grid.Row="4" Height="20" Grid.Column="3"/>
+                <Button  x:Name="z" Content="Z" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="z_Click" Grid.Row="4" Height="20" Grid.Column="4"/>
+                <Button  x:Name="e" Content="E" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="e_Click" Grid.Row="0" Grid.Column="4" Height="20"/>
             </Grid>
             <Image   x:Name="ahorcado" Visibility="Visible" Source="ahorcado.png" VerticalAlignment="Center" Height="98" Grid.Row="0" />
             <Label x:Name="palabraEncriptada"  Content="Label" HorizontalAlignment="Center" VerticalAlignment="Center" Width="154" Height="64" FontSize="20" FontWeight="Bold" FontFamily="Cambria Math" Grid.Row="1"/>
