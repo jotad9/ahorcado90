@@ -6,9 +6,25 @@
         xmlns:local="clr-namespace:ahorcado"
         mc:Ignorable="d"
         Title="MainWindow" Height="529.949" Width="899.663">
-    <Grid Margin="10,0,0,15">
-        <Button Content="Nueva Partida" HorizontalAlignment="Left"  Margin="530,172,0,0" VerticalAlignment="Top" Width="200" Height="81" FontSize="15"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="Button_Click"/>
-        <Button Content="salir" HorizontalAlignment="Left" Margin="524,296,0,0" VerticalAlignment="Top"  Width="206" Height="77" FontSize="15" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Click="Button_Click_1"/>
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition  Height="200"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                
+            </Grid.RowDefinitions>
+            <Button Content="Nueva Partida" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="200" Height="81" FontSize="15"  MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir"  Grid.Row="1" Grid.Column="1" Click="Button_Click"/>
+            <Button Content="salir"  HorizontalAlignment="Center"  VerticalAlignment="top" Width="206" Height="77" FontSize="15" MouseEnter="cambiarColorEntrar" MouseLeave="cambiarColorSalir" Grid.Row="2"  Grid.Column="1" Click="Button_Click_1"/>
+        </Grid>
+
 
     </Grid>
     <Window.Background>
