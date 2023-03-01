@@ -6,10 +6,26 @@
         xmlns:local="clr-namespace:ahorcado"
         mc:Ignorable="d"
         Title="Window3" Height="450" Width="800">
-    <Grid>
-        <Button Content="Finalizar" Background="#FFD4B549" HorizontalAlignment="Left" Margin="535,233,0,0" VerticalAlignment="Top" Width="198" Height="74" Click="Button_Click"/>
 
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition  Height="200"/>
+                <RowDefinition/>
+                <RowDefinition/>
+
+            </Grid.RowDefinitions>
+            <Button Content="Finalizar" Background="#FFD4B549" HorizontalAlignment="Center" VerticalAlignment="Center" Width="198" Height="74" Click="Button_Click"  Grid.Row="1"/>
+        </Grid>
     </Grid>
+
     <Window.Background>
         <ImageBrush ImageSource="winner.jpg"></ImageBrush>
     </Window.Background>
