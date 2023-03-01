@@ -27,6 +27,6 @@
     </Grid>
 
     <Window.Background>
-        <ImageBrush ImageSource="winner.jpg"></ImageBrush>
+        <ImageBrush ImageSource="winner.png"></ImageBrush>
     </Window.Background>
 </Window>

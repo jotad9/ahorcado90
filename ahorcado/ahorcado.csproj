@@ -134,5 +134,11 @@
   <ItemGroup>
     <Resource Include="AHORCADO.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gameover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="winner.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

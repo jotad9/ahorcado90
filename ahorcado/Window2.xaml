@@ -29,6 +29,6 @@
 
     </Grid>
     <Window.Background>
-        <ImageBrush ImageSource="gameover.jpg"></ImageBrush>
+        <ImageBrush ImageSource="gameover.png"></ImageBrush>
     </Window.Background>
 </Window>
