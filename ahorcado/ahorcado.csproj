@@ -140,5 +140,8 @@
   <ItemGroup>
     <Resource Include="winner.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="palabras.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

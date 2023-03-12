@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,14 +23,15 @@ namespace ahorcado
         StringBuilder laPalabra;//Va a ser la palabra sacada del array 
         Boolean letraAcertada;
         int fallos = 0;
-        String[] palabras = { "sol", "palabra", "gracioso", "estupendo", "increible", "carpintero", "calor" };
+        string[] palabras = File.ReadAllLines("palabras.txt");
+        
+        
         String palabraConApostrofes;//esta palabra la voy a usar como medio para ir pasandoselo al label
         int numeroDeLetras;
         char elCaracter;
 
         public Window1()
         {
-
             InitializeComponent();
             Encriptar();
         }
@@ -38,7 +40,7 @@ namespace ahorcado
         {
 
             Random random = new Random();
-            int numRandom = random.Next(0, 6);
+            int numRandom = random.Next(0, 100);
             char[] chars = palabras[numRandom].ToCharArray();
             laPalabra = new StringBuilder(palabras[numRandom]);
             numeroDeLetras = chars.Length;
